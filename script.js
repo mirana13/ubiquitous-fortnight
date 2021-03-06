@@ -12,7 +12,6 @@ message.addEventListener('change', () => {
 
     messageWords = message.value.split(' ');
 
-    console.log(messageWords);
 
     if(messageWords.length >= 20) {
         let countWords = {};
